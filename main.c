@@ -19,6 +19,51 @@ struct Buku bukus[] = {
     {"Buku4", "Erlangga", "Megawati", "235", "1"},
     {"Buku5", "Erlangga", "Megawati", "245", "1"},
     {"Buku6", "Erlangga", "Megawati", "255", "1"},
+    {"Buku7", "Erlangga", "Megawati", "255", "1"},
+    {"Buku8", "Erlangga", "Megawati", "255", "1"},
+    {"Buku9", "Erlangga", "Megawati", "255", "1"},
+    {"Buku10", "Erlangga", "Megawati","255", "1"},
+    {"Buku11", "Erlangga", "Megawati", "256", "1"},
+    {"Buku12", "Erlangga", "Megawati", "257", "1"},
+    {"Buku13", "Erlangga", "Megawati", "258", "1"},
+    {"Buku14", "Erlangga", "Megawati", "259", "1"},
+    {"Buku15", "Erlangga", "Megawati", "257", "1"},
+    {"Buku16", "Erlangga", "Megawati", "877", "1"},
+    {"Buku17", "Erlangga", "Megawati", "44", "1"},
+    {"Buku18", "Erlangga", "Megawati", "90", "1"},
+    {"Buku19", "Erlangga", "Megawati", "88", "1"},
+    {"Buku20", "Erlangga", "Megawati", "91", "1"},
+    {"Buku21", "Erlangga", "Megawati", "32", "1"},
+    {"Buku22", "Erlangga", "Megawati", "89", "1"},
+    {"Buku23", "Erlangga", "Megawati", "70", "1"},
+    {"Buku24", "Erlangga", "Megawati", "446", "1"},
+    {"Buku25", "Erlangga", "Megawati", "100", "1"},
+    {"Buku26", "Erlangga", "Megawati", "99", "1"},
+    {"Buku27", "Erlangga", "Megawati", "33", "1"},
+    {"Buku28", "Erlangga", "Megawati", "276", "1"},
+    {"Buku29", "Erlangga", "Megawati", "2567", "1"},
+    {"Buku30", "Erlangga", "Megawati", "298", "1"},
+    {"Buku31", "Erlangga", "Megawati", "265", "1"},
+    {"Buku32", "Erlangga", "Megawati", "2767", "1"},
+    {"Buku33", "Erlangga", "Megawati", "276", "1"},
+    {"Buku34", "Erlangga", "Megawati", "2765", "1"},
+    {"Buku35", "Erlangga", "Megawati", "25767", "1"},
+    {"Buku36", "Erlangga", "Megawati", "25", "1"},
+    {"Buku37", "Erlangga", "Megawati", "75", "1"},
+    {"Buku38", "Erlangga", "Megawati", "2765", "1"},
+    {"Buku39", "Erlangga", "Megawati", "255", "1"},
+    {"Buku40", "Erlangga", "Megawati", "2776", "1"},
+    {"Buku41", "Erlangga", "Megawati", "276", "1"},
+    {"Buku42", "Erlangga", "Megawati", "265", "1"},
+    {"Buku43", "Erlangga", "Megawati", "2576", "1"},
+    {"Buku44", "Erlangga", "Megawati", "255", "1"},
+    {"Buku45", "Erlangga", "Megawati", "275", "1"},
+    {"Buku46", "Erlangga", "Megawati", "250", "1"},
+    {"Buku47", "Erlangga", "Megawati", "2875", "1"},
+    {"Buku48", "Erlangga", "Megawati", "289", "1"},
+    {"Buku49", "Erlangga", "Megawati", "2775", "1"},
+    {"Buku50", "Erlangga", "Megawati", "2590", "1"},
+     
 };
 int main()
 {
@@ -57,7 +102,7 @@ int pilihan_menus()
     case 6:
         kembalikan_buku();
     case 7:
-        return 0;
+        exit (0);
     default:
         printf("Pilihan Menu Tidak Tersedia");
         return 0;
